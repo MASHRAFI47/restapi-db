@@ -11,7 +11,7 @@ const path = require('path');
 //router
 const userRouter = require('./routes/users.route');
 //mongoose
-require('./config/db')
+require('./config/db');
 
 app.use('/api/users', userRouter);
 
